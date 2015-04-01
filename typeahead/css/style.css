@@ -1,0 +1,22 @@
+/* SCSS GOODNESS */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* Georgia, Times, serif */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+/* Helvetica, Arial, sans-serif */
+/* Mixins */
+#main-head {
+  font-family: 'Droid Serif', Georgia, Times, serif;
+  font-size: 34pt;
+  text-align: center;
+  color: white; }
+
+#main-about {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 300px; }
+
+body {
+  background-color: #3498db; }
+
+/*# sourceMappingURL=style.css.map */

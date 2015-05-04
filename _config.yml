@@ -7,3 +7,6 @@ author: Ryan Hawker
 author_email: hawkerryan@gmail.com
 
 markdown: redcarpet
+
+sass:
+    sass_dir: _scss

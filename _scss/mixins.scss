@@ -1,4 +1,13 @@
 /* Mixins */
+$prefixes: -webkit-, -moz-, -o-, "";
+
+@mixin borderRadius($size) {
+    @if length($size) == 1 {
+        @each $prefix in $prefixes {
+            #{$prefix}border-radius: $size;
+        }
+    }
+}
 @mixin flexbox-display-flex {
   display: -webkit-box;
   display: -moz-box;

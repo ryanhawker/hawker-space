@@ -1,6 +1,12 @@
 ---
 layout: default
 title: Second Post
+published: true
 ---
 
-ANd this is the second post ever. Lets see how it goes.
+
+And this is the second post ever. Lets see how it goes.
+
+## This is how we do it
+**Can't believe this is going on** 
+

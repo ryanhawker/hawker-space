@@ -11,14 +11,14 @@ body {
     height: 100%
 }
 #main {
-    text-align: center;
     min-height: 100%;
     margin: 0 auto -155px;
 }
 
 #posts-wrapper {
     height: 500px;
-    width: 500px;
+    min-width: 250px;
+    max-width: 550px;
     background-color: darken( $emerald, 10% );
     margin: 0 auto;
     @include borderRadius(6px);

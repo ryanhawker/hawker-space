@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Second Post
+published: false
 ---
 
-ANd this is the second post ever. Lets see how it goes.
+## Yolo!
+
+And this is the second post ever. Lets see how it goes.

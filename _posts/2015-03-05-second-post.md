@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Second Post
-published: false
+published: true
 ---
 
 

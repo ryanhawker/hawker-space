@@ -7,7 +7,7 @@
 @import 'colours';
 
 body {
-    background-color: $emerald;
+    background-color: $river;
     height: 100%
 }
 #main {
@@ -15,12 +15,35 @@ body {
     margin: 0 auto -155px;
 }
 
+/* NAVIGATION CSS */
+#nav-wrap {
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+    li {
+        width: 50px;
+        height: 25px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+        background-color: lighten( $river, 10% );
+    }
+}
+
+
+/* POSTS CSS */
 #posts-wrapper {
     height: 500px;
     min-width: 250px;
     max-width: 550px;
-    background-color: darken( $emerald, 10% );
-    margin: 0 auto;
+    background-color: darken( $river, 10% );
+    margin: 10px auto;
     @include borderRadius(6px);
     padding: 10px;
 }
@@ -29,9 +52,7 @@ body {
     h1 {
         font-family: "Droid Serif";
     }
-    p {
-        font-family: "Droid Sans";
-    }
+    font-family: "Droid Sans";
 }
 
 

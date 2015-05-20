@@ -56,14 +56,19 @@ a {
         margin-top: 5em;
         padding: 0;
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     li {
         margin: 0.5em;
         display: flex;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-fustify-content: center;
         align-items: center;
-        fustify-content: center;
+        justify-content: center;
     }
 }
 /* NAVIGATION CSS */
@@ -76,15 +81,20 @@ a {
         height: 100%;
         color: #000;
         display: flex;
+        display: -webkit-flex;
         align-items: center;
         justify-content: center;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
     }
     ul {
         margin: 0;
         padding: 0;
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: center;
+        -webkit-justify-content: center;
         text-align: center;
         list-style: none;
         @include borderRadius(6px);
@@ -93,6 +103,7 @@ a {
         width: 250px;
         height: 65px;
         display: flex;
+        display: -webkit-flex;
         padding: 0;
         margin: 0.5em;
         background-color: #fff; /*lighten( $river, 10% );*/

@@ -3,56 +3,141 @@
 
 @import 'fonts';
 @import 'mixins';
-@import 'main';
 @import 'colours';
 
+html {
+    overflow-y: scroll;
+}
 body {
-    background-color: $river;
+    background-color: #fff;
     height: 100%
+}
+a {
+    text-decoration: none;
 }
 #main {
     min-height: 100%;
     margin: 0 auto -155px;
 }
-
+#main-head {
+    a {
+        font-family: 'Droid Serif', Georgia, Times, serif;
+        font-size: 34pt;
+        color: #000;
+    }
+    text-align: center;
+}
+#main-about {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1em;
+}
+#profile-photo {
+    @include borderRadius(100px);
+    margin: auto;
+    margin-top: 5em;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+        width: 140%;
+        height: auto;
+        position: relative;
+        left: -30px;
+    }
+}
+#link-bar {
+    margin: 0 auto;
+    width: 300px;
+    ul {
+        list-style: none;
+        margin: 0;
+        margin-top: 5em;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    li {
+        margin: 0.5em;
+        display: flex;
+        align-items: center;
+        fustify-content: center;
+    }
+}
 /* NAVIGATION CSS */
 #nav-wrap {
+    padding-bottom: 1em;
+    @include borderRadius(6px);
+    a {
+        font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+        width: 100%;
+        height: 100%;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     ul {
         margin: 0;
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
         list-style: none;
+        @include borderRadius(6px);
     }
     li {
-        width: 50px;
-        height: 25px;
-        text-align: center;
-        vertical-align: middle;
+        width: 250px;
+        height: 65px;
+        display: flex;
         padding: 0;
-        margin: 0;
-        background-color: lighten( $river, 10% );
+        margin: 0.5em;
+        background-color: #fff; /*lighten( $river, 10% );*/
+        border: solid 1px;
+        color: #000;
+        @include borderRadius(6px);
     }
+    a:hover {
+        color: #fff;
+    }
+    li:hover {
+        background-color: #000;
+    }
+    // li:first-child {
+    //    background-color: darken( $emerald, 10% );
+    //}
+    //li:last-child {
+    //    background-color: darken( $alizarin, 10% );
+    //}
+    //li:first-child:hover {
+    //    background-color: darken( $emerald, 20% );
+    //}
+    //li:last-child:hover {
+    //    background-color: darken( $alizarin, 20% );
+    //}
 }
 
 
 /* POSTS CSS */
 #posts-wrapper {
     height: 500px;
-    min-width: 250px;
+    min-width: 210px;
     max-width: 550px;
-    background-color: darken( $river, 10% );
-    margin: 10px auto;
+    background-color: darken( #fff, 60% ); /*darken( $emerald, 20% );*/
+    margin: 0 auto;
     @include borderRadius(6px);
     padding: 10px;
 }
 
 .post {
-    h1 {
+    h1, h2, h3 {
         font-family: "Droid Serif";
     }
     font-family: "Droid Sans";
+    color: #fff;
 }
 
 

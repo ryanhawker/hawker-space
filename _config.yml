@@ -8,5 +8,7 @@ author_email: hawkerryan@gmail.com
 
 markdown: redcarpet
 
+permalink: pretty
+
 sass:
     sass_dir: _scss

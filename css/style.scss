@@ -21,14 +21,20 @@ a {
 }
 #main-head {
     a {
-        font-family: 'Droid Serif', Georgia, Times, serif;
-        font-size: 34pt;
+        font-family: Georgia, Times, serif;
+        font-size: 40pt;
         color: #000;
     }
+    font-weight: normal;
     text-align: center;
 }
+#main-head:hover {
+    a {
+        color: lighten( #000, 30% );
+    }
+}
 #main-about {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     text-align: center;
     margin: auto;
     padding-bottom: 1em;
@@ -75,9 +81,9 @@ a {
 /* NAVIGATION CSS */
 #nav-wrap {
     padding-bottom: 1em;
-    @include borderRadius(6px);
     a {
-        font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+        //font-family: Verdana, Arial, sans-serif;
+        font-family: Georgia, Times, serif;
         width: 100%;
         height: 100%;
         color: #000;
@@ -93,32 +99,53 @@ a {
         padding: 0;
         display: flex;
         display: -webkit-flex;
-        flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
+        -webkit-flex-direction: column;
+        flex-direction: column;
         justify-content: center;
         -webkit-justify-content: center;
         text-align: center;
         list-style: none;
-        @include borderRadius(6px);
     }
     li {
-        width: 250px;
-        height: 65px;
+        width: 50px;
+        //height: 65px;
         display: flex;
         display: -webkit-flex;
         padding: 0;
-        margin: 0.5em;
+        //margin: 0.5em;
+        margin: 0 auto;
+        border-bottom: solid 1px;
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
         background-color: #fff; /*lighten( $river, 10% );*/
-        border: solid 1px;
+        //border: solid 1px;
         color: #000;
-        @include borderRadius(6px);
+    }
+    li:last-child {
+        border: none;
     }
     a:hover {
-        color: #fff;
+        color: lighten( #000, 30% );
     }
-    li:hover {
-        background-color: #000;
+    @media (min-width: 360px) {
+        ul {
+            -webkit-flex-direction: row;
+            flex-direction: row;
+        }
+        li {
+            border-right: solid 1px;
+            border-bottom: none;
+            margin: 0;
+        }
+        li:last-child {
+            border: none;
+        }
     }
+    //li:hover {
+    //    background-color: #000;
+    //}
     // li:first-child {
     //    background-color: darken( $emerald, 10% );
     //}
@@ -136,21 +163,37 @@ a {
 
 /* POSTS CSS */
 #posts-wrapper {
-    height: 500px;
+    height: auto;
     min-width: 210px;
     max-width: 550px;
-    background-color: darken( #fff, 60% ); /*darken( $emerald, 20% );*/
+    text-align: center;
+    background-color: darken( #fff, 0% ); /*darken( $emerald, 20% );*/
     margin: 0 auto;
     @include borderRadius(6px);
     padding: 10px;
 }
-
+#post-wrapper {
+    height: auto;
+    min-width: 210px;
+    max-width: 550px;
+    background-color: darken( #fff, 0% ); /*darken( $emerald, 20% );*/
+    margin: 0 auto;
+    @include borderRadius(6px);
+    padding: 10px;
+}
+#perma-title {
+    font-family: Georgia, Times, serif;
+}
+.post-date {
+    font-size: 10pt;
+    font-style: italic;
+}
 .post {
     h1, h2, h3 {
-        font-family: "Droid Serif";
+        font-family: Georgia, Times, serif;
     }
-    font-family: "Droid Sans";
-    color: #fff;
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
 }
 
 

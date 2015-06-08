@@ -199,6 +199,12 @@ footer {
     }
 }
 #post-wrapper {
+    a {
+        color: lighten( #000, 30% );
+    }
+    a:hover {
+        color: lighten( #000, 40% );
+    }
 }
 #perma-title {
     font-family: Georgia, Times, serif;

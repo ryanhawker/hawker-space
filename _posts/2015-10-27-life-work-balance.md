@@ -2,9 +2,6 @@
 layout: post
 published: true
 ---
-
-
-
 People say you need a good work/life balance. I don't want it to be a balance though, I want it to be mostly life! I want work to be a part of my life that I enjoy, and then I want to have things outside of work that I enjoy even more! 
 
 This long weekend just passed I had some great adventures, I went on a walk to a secret beach with my family. My brother and I went diving around the rocks and found fish and little pockets of Paua. See below for awesome selfies and underwater pro-shots.

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 ---
 
 {% highlight python %}
@@ -36,7 +36,7 @@ differentiated and I have no code highlighting.. the highlighting might be ok, I
 can probably take care of that in Jekyll (I think they have something for that).
 Let's see what we can do there.
 
-Let us try some LaTeX! $\Phi = \frac{V_{\pi}}{\pi}\cdot\cos(\omega)$ look look
+Let us try some LaTeX! \\(\Phi = \frac{V_{\pi}}{\pi}\cdot\cos(\omega)\\) look look
 it's an equation!
 
 Ok so I got my code highlighted using Liquid tags reading the official Jekyll

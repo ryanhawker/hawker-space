@@ -8,6 +8,8 @@ author_email: hawkerryan@gmail.com
 
 markdown: redcarpet
 
+highlighter: pygments
+
 permalink: pretty
 
 sass:

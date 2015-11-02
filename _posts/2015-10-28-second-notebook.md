@@ -40,7 +40,7 @@ Let's see what we can do there.
 
 Let us try some LaTeX! \\(\Phi = \frac{V_{\pi}}{\pi}\cdot\cos(\omega)\\) look look
 it's an equation! (I only got this working after some fidling.. see my post 
-[Hot Dang Math]({% post_url 2015-10-28-hot-dang-math.md %}) to see what I had to go through to get this to render properly!)
+[Hot Dang Math]({% post_url 2015-10-28-hot-dang-math %}) to see what I had to go through to get this to render properly!)
 
 Ok so I got my code highlighted using Liquid tags reading the official Jekyll
 documentation. It was harder than it sounded but not too bad.. I ran into a bug

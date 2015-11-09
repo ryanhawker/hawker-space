@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 ---
+
+
 
 {% highlight python %}
 twos = [2,2,2,2]
@@ -37,7 +39,8 @@ can probably take care of that in Jekyll (I think they have something for that).
 Let's see what we can do there.
 
 Let us try some LaTeX! \\(\Phi = \frac{V_{\pi}}{\pi}\cdot\cos(\omega)\\) look look
-it's an equation!
+it's an equation! (I only got this working after some fidling.. see my post 
+[Hot Dang Math]({% post_url 2015-10-28-hot-dang-math %}) to see what I had to go through to get this to render properly!)
 
 Ok so I got my code highlighted using Liquid tags reading the official Jekyll
 documentation. It was harder than it sounded but not too bad.. I ran into a bug
@@ -49,7 +52,3 @@ indentation issues.
 Also had a problem with indenting my code blocks. Apparently if you are using
 the highlighting block, you don't need to indent the code block (markdown wise).
 And so that "fixes" it? Yep.
-
-
-
-    

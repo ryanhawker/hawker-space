@@ -4,6 +4,7 @@ published: true
 ---
 
 
+
 This post is an attempt to get LaTeX math rendering using [KaTeX](https://khan.github.io/KaTeX/), "The _fastest_ math typesetting library for the web". Hot dang doesn't that sound like fun! I'll list out some problems that I face along the way and demo the final product at the end of the post!
 
 We start by just walking through their README.md file on github. I include the two CDN links to the minified KaTeX css and js files into my default.html layout template. 
@@ -32,12 +33,3 @@ BOOYA! We have lift off!
 How about display math? 
 $$ \Omega = \frac{2\pi}{c}\cdot\sin\bigg(\omega t\bigg) $$
 Ohhhh yea. Great success!
-
-
-
-
-
-
-
-
-

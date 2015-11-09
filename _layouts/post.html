@@ -6,5 +6,11 @@ layout: default
     <article class="post">
         {{ content }}
     </article>
+    <span>tags: </span>
+    {% for tag in page.tags %}
+    <div id="post-tags">
+        {{ tag }}
+    </div>
+    {% endfor %}
 </section>
 {% include katex.html %}

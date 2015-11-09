@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+tags: ipython, notebooks, jupyter, latex, katex 
 ---
 
 

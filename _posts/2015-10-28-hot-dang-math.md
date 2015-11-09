@@ -23,7 +23,7 @@ IN MY MARKDOWN. Not only is that ugly, but that's going to make converting my IP
 So what can I do instead? Ooooh hold on at the bottom of their README.md I have found the solution ==> __*AUTO-RENDERING*__. Woo!
 
 This solution requires just one more CDN link added to my default.html layout template
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+	\<script src=\"//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"\>\<\/script\>
 and we also have to call this function after the element containing our math
 	<script>renderMathInElement(document.getElementById("example"));</script>
 I added this line in an include file and included it at the bottom of my post layout file, so that it is included only when a post appears (because there wont be any math popping up anywhere else.

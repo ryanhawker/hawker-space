@@ -16,7 +16,8 @@ We start by just walking through their README.md file on github. I include the t
 Tada! Show me the action! \$ \cos(\omega) = \pi \$
 BZZZZT. It ain't that simple.
 
-###First Problem###
+___First Problem___
+
 Well that didn't take long did it. The first problem that I ran into is that to render my maths, where ever I want it to be I need to put something like this:
 {% highlight html %}
 <script>katex.render("\cos(\omega) = \pi", element);</script>

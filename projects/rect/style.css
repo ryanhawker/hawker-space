@@ -1,0 +1,8 @@
+canvas {
+        border: 1px solid red;
+}
+#reset {
+        padding: 0;
+        margin: auto;
+        display: block;
+}

@@ -6,9 +6,9 @@ author: Ryan Hawker
 
 author_email: hawkerryan@gmail.com
 
-markdown: redcarpet
+markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 permalink: pretty
 

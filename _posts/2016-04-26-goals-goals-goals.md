@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 <rant>
 
@@ -22,6 +22,3 @@ In addition to this I need to get fit. I think I should start greasing the gap w
 And the healthy eating well... I mean.. gummon. I just have to stop eating bad food. I am going to track my food intake with my fitness pal and hopefully that will be enough of a wake up call to stall my bad habits. We will see.
 
 </rant>
-
-
-

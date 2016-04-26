@@ -3,8 +3,6 @@ published: true
 layout: post
 tags: "life, work, goals, self-improvement"
 ---
-<rant>
-
 I have so many goals and I'm hitting none of them!
 
 Here's a quick list of things I'd like to achieve/do. Preferably soon.

@@ -1,5 +1,7 @@
 ---
 published: true
+layout: post
+tags: "life, work, goals, self-improvement"
 ---
 <rant>
 

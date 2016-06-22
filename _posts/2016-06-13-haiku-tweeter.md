@@ -12,4 +12,5 @@ What I want my haiku bot to do is take in a list of users, and strip their tweet
 
 In this post I'm going to break down the problem and solve it step by step. Looks like a lot of the problems have been solved before anyway but I'll still try to dive into each of them at least a little bit for my own benefit.
 
-
+UPDATE:
+Oh my goodness it's great and and so stupied but I love it. I'm so happy. Check it out at [@HaikuSecurity](https://twitter.com/HaikuSecurity).

@@ -1,6 +1,11 @@
 ---
 published: true
 ---
+---
+layout: post
+tags: "electronics, prototyping"
+---
+
 This is a topic that is worth talking about if you're into any kind of electronnics prototyping or hacking.
 
 What do you do if you only use 3 opamps in a quad pack? Just leave the fourth opamp floating? 500 x NO. Leaving the opamp foating is literaly the worst thing you can do, as both inputs are floating and will pick up noise the output may switch from rail to rail randomly. Much bad. 

@@ -1,7 +1,5 @@
 ---
 published: true
----
----
 layout: post
 tags: "electronics, prototyping"
 ---
